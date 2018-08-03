@@ -77,6 +77,8 @@ image bg villageday = "villageday.jpg"
 
 define fade = Dissolve(.5) 
 
+show lneutral 
+
 $ renpy.music.play(channel=7, fadein=2)
 $ renpy.music.stop(channel=7, fadeout=2) 
 
